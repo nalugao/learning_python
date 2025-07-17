@@ -6,4 +6,4 @@ n = float(input('Write a value in meters: '))
 c = n*100
 m = n*1000
 
-print(f'The value {n:.2f} in centimeters is {c:.2f} cm and in millimeters is {m:.2f} mm.')
+print(f'The value {n:.0f} in centimeters is {c:.0f} cm and in millimeters is {m:.0f} mm.')
