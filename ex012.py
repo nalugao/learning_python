@@ -3,6 +3,6 @@
 price = float(input('What is the price of the product (R$)? '))
 
 discount = price*0.05
-new_price = price+discount
+new_price = price-discount
 
 print(f'The discount is R$ {discount:.2f} and the new price is R$ {new_price:.2f}.')
